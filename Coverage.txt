@@ -1,0 +1,7 @@
+run("Split Channels");
+selectImage(2);
+rename("green");
+setAutoThreshold("Default");
+run("Threshold", "thresholded remaining black");
+run("Invert");
+run("Analyze Particles...", "size=100-Infinity summarize  show=Nothing");
