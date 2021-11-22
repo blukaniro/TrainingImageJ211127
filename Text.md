@@ -23,9 +23,12 @@ ImageJ Training 211127 by Ryosuke TAJIMA
 # ROI manager
 - Analyze > Tools > ROI Manager  
 - 複数の選択をまとめておける  
+- ショートカット「t」が有効
 - 足したり引いたりもできる  
+- Labelsを選択すると番号が付される  
 - Show Allを選択するとまとめて解析できる  
 - 解析結果はテキストファイルで保存できる  
+
   
 # Analyse particle  
 ## 基本の二値化  
@@ -75,6 +78,7 @@ ImageJ Training 211127 by Ryosuke TAJIMA
     - Macはホームフォルダ(家のアイコン)の直下  
     - Windowsは「C:\Users\コンピュータ名」の「コンピュータ名」の直下  
 - マクロを読み込ませて動かす  
+- 出力はcm  
 - マクロを調整する  
     - 「バイナリイメージ問題」に対処する(L72,L74)  
     - 枠を避けて切り抜く(L8)  
